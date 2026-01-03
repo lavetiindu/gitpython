@@ -7,3 +7,6 @@ list.pop()
 print(list)
 del list[0]
 print(list)
+list.clear()
+print(list)
+del list
