@@ -1,0 +1,12 @@
+class Person:
+  def __init__(self, name):
+    self.name = name
+
+p1 = Person("indu")
+
+p1.age = 25
+p1.city = "vizag"
+
+print(p1.name)
+print(p1.age)
+print(p1.city)
